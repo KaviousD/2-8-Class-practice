@@ -8,14 +8,37 @@
 <body>
     <header>Kavious Form</header>
     <main>
-        <form>
+        <form action="mailto:Kaviousdmoment@gmail.com">
+        
             <div>
-            <label for="YourName">what is your name</label>
-            <input id="YourName" type="text" placeholder="Jhondoe">
+                <label for="yourname">What is your name</label>
+                <input id="yourname" type="text" placeholder="EnteryourName"/>
             </div>
+
+             <div>
+                <label for="YourEmail">what is your name</label>
+                <input id="Youremail" type="email" name="CC" placeholder="Email@Domain.com">
+            </div>
+
+        <div>
+            <label for="Subject-select"></label>
+            <select id="Subject-select" name="Subject">
+            <option value="no_subject">select an option below</option>
+            <option value="web_developement">build a website</option>
+            <option value="Code_Lesson_Inquiry"> teach me how to code</option>
+            </select>
+        </div>
+
             <div>
-            <input type="submit" value="submit button text"></input>
+                <label for="yourMessage">Tell me more</label>
+                <Textarea id="yourMessage" type="Textarea"  name="body" ></Textarea>
             </div>
+
+            <div>
+            <input type="button" value="submit button text">
+            </div>
+
+           
         </form>
         <aside style="float: right;"></aside>
     </main>
